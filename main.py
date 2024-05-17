@@ -14,8 +14,8 @@ person1_encoding = fr.face_encodings(person1_image)[0]
 person2_image = fr.load_image_file("face/person2.jpeg")
 person2_encoding = fr.face_encodings(person2_image)[0]
 
-known_face_encodings = [zarana_encoding,hinal_encoding]
-known_face_names = ["zarana","hinal"]
+known_face_encodings = [person1_encoding,person2_encoding]
+known_face_names = ["person1","person2"]
 
 # list of expected students
 students = known_face_names.copy()
