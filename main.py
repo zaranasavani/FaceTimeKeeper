@@ -8,7 +8,7 @@ from datetime import date, datetime
 video_capture = cv2.VideoCapture(0)
 
 # load known faces
-person1_image = fr.load_image_file("face/person1.jpg")       # store images in "face"
+person1_image = fr.load_image_file("face/person1.jpg")       # store images in "face directory"
 person1_encoding = fr.face_encodings(person1_image)[0]
 
 person2_image = fr.load_image_file("face/person2.jpeg")
