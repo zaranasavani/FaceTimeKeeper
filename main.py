@@ -37,7 +37,7 @@ while True:
 
     # Recognize faces
     face_locations = fr.face_locations(rgb_small_frame)
-    face_encodings = fr.face_encodings(rgb_small_frame, face_locations)
+    face_encodings = fr.face_encodings(rgb_small_frame, face_locations)  
 
     for face_encoding in face_encodings:
         mathes = fr.compare_faces(known_face_encodings,face_encoding)
