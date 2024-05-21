@@ -1,6 +1,6 @@
 In today's fast-paced and technologically advanced world, efficient and reliable attendance management is crucial for educational institutions and organizations. Our Face Attendance System is designed to streamline the attendance process using state-of-the-art facial recognition technology. This project leverages machine learning algorithms to ensure accurate and secure tracking of student attendance.
 
-Key Features:
+#Key Features:
 
 👉Image Registration: When a student enrolls in the system, their facial image is captured and securely stored in the database. This step ensures that the system has a reference image for future attendance matching.
 
