@@ -1,7 +1,8 @@
-cmake
+os
 face_recognition
 cv2
 numpy
 csv
 datetime
 pyttsx3
+time

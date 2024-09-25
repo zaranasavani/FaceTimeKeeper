@@ -118,7 +118,7 @@ with open(f"attendance_{current_date}.csv", "a+", newline="") as f:
 
         # Check if it's 11:59 PM and mark absentees
         current_time = datetime.now().time()
-        end_of_day = time(21, 15)  # 11:59 PM
+        end_of_day = time(21, 35)  # 11:59 PM
 
         if current_time >= end_of_day:
             for student, status in students.items():
