@@ -1,0 +1,15 @@
+1. download cmake
+   https://cmake.org/download/
+   cmake-3.30.3-windows-x86_64.msi(any version for windows)
+
+   install cmake
+   set path(Environment Variable)
+
+   pip install cmake
+   cmake --version
+
+2. download  Visual Studio built Tools
+    https://visualstudio.microsoft.com/downloads/?q=build+tools
+
+    install Visual Studio built Tools
+    setup (Desktop development with C++)

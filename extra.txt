@@ -1,0 +1,12 @@
+# Load known faces
+zarana_image = fr.load_image_file("face/zarana.jpg")
+zarana_encoding = fr.face_encodings(zarana_image)[0]
+
+hinal_image = fr.load_image_file("face/hinal.jpeg")
+hinal_encoding = fr.face_encodings(hinal_image)[0]
+
+hareshbhai_image = fr.load_image_file("face/hareshbhai.jpg")
+hareshbhai_encoding = fr.face_encodings(hareshbhai_image)[0]
+
+known_face_encodings = [zarana_encoding, hinal_encoding, hareshbhai_encoding]
+known_face_names = ["zarana", "hinal","hareshbhai"]
