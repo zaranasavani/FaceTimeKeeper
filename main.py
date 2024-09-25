@@ -116,9 +116,9 @@ with open(f"attendance_{current_date}.csv", "a+", newline="") as f:
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
-        # Check if it's 11:59 PM and mark absentees
+        # Check if it's 12 AM and mark absentees
         current_time = datetime.now().time()
-        end_of_day = time(21, 35)  # 11:59 PM
+        end_of_day = time(12,0)  # 12 AM
 
         if current_time >= end_of_day:
             for student, status in students.items():
@@ -127,7 +127,7 @@ with open(f"attendance_{current_date}.csv", "a+", newline="") as f:
                     lnwrite.writerow([student, current_date, "Absent"])
                     engine.say(f"{student} is absent.")
                     engine.runAndWait()
-            break  # Break the loop at 11:59 PM
+            break  # Break the loop at 12 AM
 
 
 
