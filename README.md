@@ -1,7 +1,7 @@
 # Face Time Keeper
 
 A "Face Time Keeper" is a system is one of example of Computer vision and face recognition technology. It capture real-time video using a webcam, detects faces from the video, and compares them with pre-stored face data to recognize individuals. Once an individual is recognized, their attendance is automatically recorded in a CSV file. The system also supports text-to-speech feedback to notify users when their attendance has been successfully marked.
- ✨## Features ✨
+## ✨ Features ✨
 
 - Real-Time Face Recognition:📽️
 Uses a webcam to capture video and detect faces in real-time.
