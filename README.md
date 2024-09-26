@@ -25,3 +25,28 @@ If an unknown face is detected, it announces that the person is not recognized a
 By 12:00 AM, if any faces from the ‘face’ folder are not recognized, they are marked as absent automatically.
 
 
+## Installation
+
+- Clone the Repository using below command
+
+```bash
+  git clone https://github.com/zaranasavani/FaceTimeKeeper.git
+```
+  
+- Install Dependencies
+
+Navigate into the project directory and install the required dependencies using below command
+
+```bash
+  pip install -r requirements.txt
+```
+
+- Add User Faces
+Place images of the people whose attendance you want to track in the "face" folder.
+Name each image with the person's name (e.g., john.jpg, mary.jpeg).
+
+- Run main.py file
+```bash
+  python main.py
+```
+
