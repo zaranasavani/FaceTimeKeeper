@@ -30,7 +30,7 @@ By 12:00 AM, if any faces from the ‘face’ folder are not recognized, they ar
 - Clone the Repository using below command
 
 ```bash
-  git clone https://github.com/zaranasavani/FaceTimeKeeper.git
+  git clone https://github.com/zaranasavani/Face_Attendance_System.git
 ```
   
 - Install Dependencies
